@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PBTA — Plataforma de Bioimpresión Tridimensional Avanzada</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Encabezado / navegación -->
+  <header class="site-header">
+    <div class="logo">
+      <svg class="logo-mark" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M14 2 C 26 8, 2 14, 14 20 C 26 26, 2 32, 14 38" class="dna-strand" />
+        <path d="M26 2 C 14 8, 38 14, 26 20 C 14 26, 38 32, 26 38" class="dna-strand" />
+        <line x1="11" y1="6" x2="29" y2="6" class="dna-rung" />
+        <line x1="5" y1="14" x2="35" y2="14" class="dna-rung" />
+        <line x1="11" y1="20" x2="29" y2="20" class="dna-rung" />
+        <line x1="5" y1="26" x2="35" y2="26" class="dna-rung" />
+        <line x1="11" y1="34" x2="29" y2="34" class="dna-rung" />
+      </svg>
+      <span>PBTA</span>
+    </div>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#que-es">Qué es</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#tecnologia">Tecnología</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <!-- Sección principal (hero) -->
+  <section id="inicio" class="hero">
+    <div class="hero-media">
+      <img src="img/bioprint-arm.png" alt="Brazo robótico bioimprimiendo con precisión" class="hero-photo">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="eyebrow">Bioimpresión 3D avanzada</p>
+      <h1>PBTA</h1>
+      <p class="subtitle">Plataforma de Bioimpresión Tridimensional Avanzada</p>
+      <p class="hero-text">
+        Construimos tejido, capa por capa, con precisión de máquina y lógica de vida.
+      </p>
+      <a href="#contacto" class="cta">Solicitar información</a>
+    </div>
+  </section>
+
+  <!-- Qué es la plataforma -->
+  <section id="que-es" class="section section-light que-es-section">
+    <p class="eyebrow">Qué es</p>
+    <h2>El andamiaje de un tejido vivo.</h2>
+    <p class="lead">
+      PBTA fabrica estructuras biológicas con precisión celular, capa por capa.
+    </p>
+    <a href="#nosotros" class="panel-link">Conoce nuestra misión →</a>
+  </section>
+
+  <!-- Misión, Visión y Valores -->
+  <section id="nosotros" class="section nosotros-section">
+    <p class="eyebrow">Nosotros</p>
+    <h2>Misión, visión y valores</h2>
+    <div class="mvv-grid">
+      <div class="mvv-card">
+        <span class="mvv-label">Misión</span>
+        <p>Democratizar el acceso a tejido bioimpreso funcional, acelerando la investigación médica y las terapias regenerativas.</p>
+      </div>
+      <div class="mvv-card">
+        <span class="mvv-label">Visión</span>
+        <p>Ser la plataforma de referencia en bioimpresión 3D avanzada, liderando la transición hacia la medicina regenerativa personalizada.</p>
+      </div>
+      <div class="mvv-card">
+        <span class="mvv-label">Valores</span>
+        <ul class="mvv-values">
+          <li>Precisión científica</li>
+          <li>Innovación responsable</li>
+          <li>Ética en investigación biológica</li>
+          <li>Colaboración interdisciplinaria</li>
+        </ul>
+      </div>
+    </div>
+    <a href="#tecnologia" class="panel-link">Ver cómo construimos →</a>
+  </section>
+
+  <!-- Cómo funciona / capas del proceso -->
+  <section id="tecnologia" class="section tecnologia-section">
+    <div class="tecnologia-text">
+      <h2>Cómo construimos</h2>
+      <ul class="layers">
+        <li><strong>Capa 01 — Diseño</strong><span>Modelado digital de la estructura de tejido.</span></li>
+        <li><strong>Capa 02 — Bioimpresión</strong><span>Depósito celular capa por capa.</span></li>
+        <li><strong>Capa 03 — Maduración</strong><span>Cultivo del tejido en condiciones controladas.</span></li>
+        <li><strong>Capa 04 — Validación</strong><span>Control de calidad y análisis funcional.</span></li>
+      </ul>
+    </div>
+    <figure class="result-photo">
+      <img src="img/bioprint-heart.png" alt="Tejido cardíaco bioimpreso, resultado del proceso PBTA">
+      <figcaption>Resultado — tejido cardíaco funcional</figcaption>
+    </figure>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="section section-light contact">
+    <p class="eyebrow">Contacto</p>
+    <h2>Hablemos de tejido vivo.</h2>
+    <p class="lead">¿Quieres saber más sobre PBTA? Escríbenos.</p>
+    <div class="contact-links">
+      <a href="mailto:jacob.serafio.saj@gmail.com" class="panel-link">jacob.serafio.saj@gmail.com →</a>
+      <a href="tel:+524491561744" class="panel-link">449 156 1744 →</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 PBTA — Plataforma de Bioimpresión Tridimensional Avanzada</p>
+  </footer>
+
+</body>
+</html>
