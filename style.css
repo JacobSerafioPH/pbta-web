@@ -531,6 +531,35 @@ body {
   transform: none;
 }
 
+/* Variante clara: cuando el menú de proyectos va sobre section-light */
+.section-light .proyecto-card {
+  border-color: var(--line-on-light);
+  background: rgba(10, 10, 10, 0.03);
+}
+
+.section-light .proyecto-card:hover,
+.section-light .proyecto-card:focus-visible {
+  border-color: rgba(10, 10, 10, 0.28);
+  background: rgba(10, 10, 10, 0.06);
+}
+
+.section-light .proyecto-card h3 {
+  color: var(--text-on-light);
+}
+
+.section-light .proyecto-card p {
+  color: var(--text-on-light-dim);
+}
+
+.section-light .proyecto-card .stat-label,
+.section-light .proyecto-card .card-link {
+  color: var(--green-dim);
+}
+
+.section-light .card-icon {
+  stroke: var(--green-dim);
+}
+
 /* ===== Detalle de proyecto de portafolio (usado en páginas como genoma-vigi.html) ===== */
 .portfolio-body {
   margin-top: 0.5rem;
