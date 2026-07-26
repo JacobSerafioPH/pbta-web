@@ -447,6 +447,31 @@ body {
   color: var(--text-dim);
 }
 
+/* Variante clara: cuando "Tecnología" va sobre section-light */
+.section-light .layers li {
+  border-left-color: var(--line-on-light);
+}
+
+.section-light .layers li:hover {
+  border-left-color: var(--green-dim);
+}
+
+.section-light .layers li strong {
+  color: var(--green-dim);
+}
+
+.section-light .layers li span {
+  color: var(--text-on-light-dim);
+}
+
+.section-light .layer-icon {
+  stroke: var(--green-dim);
+}
+
+.section-light .result-photo figcaption {
+  color: var(--text-on-light-dim);
+}
+
 /* ===== Portafolio (teaser en index) ===== */
 .portafolio-teaser > * {
   max-width: 620px;
